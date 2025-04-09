@@ -1,0 +1,44 @@
+# Social Media Video Distribution App
+
+## Project Overview
+- Upload videos
+- Transcribe with AssemblyAI
+- Generate descriptions via Llama on Groq
+- Post to multiple social platforms
+
+## Tech Stack
+- Frontend: Vercel
+- Backend: GibsonAI Cloud Database
+- Tools: AssemblyAI, Llama on Groq, Cursor
+
+## Development Phases
+1. Foundation (3 Days)
+   - Repository setup
+   - Video upload/storage
+   - AssemblyAI integration
+
+2. AI & Social Integration (4 Days)
+   - Llama on Groq integration
+   - Platform authentication
+   - Content posting mechanisms
+
+3. Testing & Deployment (2 Days)
+   - End-to-end testing
+   - Security validation
+   - Production deployment
+
+## Development Rules
+1. Start with single platform integration first
+2. Deliver working functionality in 2-3 day sprints
+3. Implement robust error handling for third-party APIs
+4. Use secure credential storage for all tokens
+5. Create automated tests for critical paths
+6. Maintain clear API documentation
+7. Implement logging for API interactions
+8. Include manual override capabilities
+
+## Success Criteria
+- Functional end-to-end pipeline
+- Secure credential handling
+- Processing time under 5 minutes per video
+- Minimal manual intervention required

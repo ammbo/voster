@@ -1,0 +1,19 @@
+API Spec URL: https://api.gibsonai.com/v1/-/openapi/r6bzMYf7cwWFy
+API Key: gAAAAABn4ZVAcFpniSKl0952FrBag1F7u0vqO0yqPyga7LPG7GRuMFW142XqfXfUFbpDWiphnEAsFv4OUMrfcy6iTOg7wMODJg==
+
+The base URL for the API is:
+
+https://api.gibsonai.com
+In order to interact with the API, each request must contain the following HTTP header in order to authenticate the caller:
+
+X-Gibson-API-Key: [API Key]
+Failure to provide this header or a valid API key will result in a 401 Unauthorized response.
+
+Keep in mind that each API key is coded independently with read, write and delete permissions. Though you may be providing valid headers and keys you might still receive a 401 Unauthorized response based on the permissions of the key.
+
+The API uses standard HTTP request methods DELETE, GET (read), POST (create) and PATCH (update). Below is the list of their respective successful response codes:
+
+DELETE: 204
+   GET: 200
+ PATCH: 200
+  POST: 201
